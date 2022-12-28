@@ -1,0 +1,99 @@
+header{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+h1 {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+    color: black;
+}
+div{
+    margin-right:10px;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    text-align: center;
+    font-size: large;
+    resize: vertical;
+}
+table{
+    border-collapse: collapse;
+    border-color:black;
+    text-align: center;
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.navbar{
+    align-items: center;
+    text-align: center;
+    background-color: blue;   
+}
+
+input[type=text], select, input[type=number]{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+option{
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: large;
+    background-color: blue;
+    color: white;
+} 
+
+th{
+    padding: 10px 15px;
+    background-color: #ccc;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button{
+    background-color: #0d9563;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .add{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 20px;
+    border-color: blue;
+    color: black;
+}
+
+input[type=file]{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blue;
+    color: white;
+  }
+
+img{
+    width: 60%;
+    background-color: whitesmoke;
+    border: 1px;
+    border-color: black;
+}
+

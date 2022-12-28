@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <script src="insert.js"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Josepolis</title>
+    </head>
+    <body>
+    <header>
+        <nav role="banner">
+            <h1>Funciones Del Cine Para Hoy</h1> <br>
+        </nav>       
+    </header>
+
+    <div>
+        <table id="tabla" border="1px">
+            <tr>
+                <th>Funcion</th>
+                <th>Horario</th>
+                <th>Sala</th>
+                <th>Clasificacion</th>
+                <th>Precio</th>
+            </tr>          
+        </table> <br><br><br>
+
+        <form id="agregar" >
+            <label for="Name">Ingresa el nombre de la pelicula: </label>
+            <input id="Name" type="text" required placeholder="Name" maxlength="200"> <br>
+
+            <label for="Time">Ingresa el horario de la pelicula: </label><br>
+            <select id="Time">
+                <option value="non">Schedule</option>
+                <option value="06:00">06:00</option>
+                <option value="08:00">08:00</option>
+                <option value="10:40">10:40</option>
+            </select> <br>
+
+            <label for="Sala">Ingresa la sala: </label><br>
+            <select id="Sala" placeholder="Sala">
+                <option value="non">Sala</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select> <br>
+
+            <label for="Clasificacion">Ingresa la Clasificacion: </label>
+            <input id="Clasificacion" type="text" maxlength="5" required> <br>
+
+            <label for="Price">Ingresa el Precio: </label><br>
+            <input id="Price" type="number" placeholder="Price" required> <br>
+
+            <button id="submit" type="button" onclick="guardar()">Agregar Funcion</button>
+        </form><br>
+        
+    </div>
+        <a href="image.html" target="_blank">Click aqui para agregar imagen</a>
+    </body>
+</html>
